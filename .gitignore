@@ -3,3 +3,4 @@ terraform.tfvars
 terraform.tfstate
 .terraform.lock.hcl
 hosts
+terraform.tfstate.backup
