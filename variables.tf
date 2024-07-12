@@ -13,12 +13,17 @@ variable "region" {
   default     = "ap-south-1"
 }
 
-# variable "az" {
-#   description = "AWS availability_zone"
-#   default     = "ao-south-1"
-# }
+variable "az" {
+  description = "AWS availability_zone"
+  default     = "ap-south-1a"
+}
 
 variable "vpc_cidr" {
   description = "CIDR for VPC"
   default     = "10.0.0.0/16"
+}
+
+variable "public_subnet_cidr" {
+  description = "CIDR for public subnet"
+  default     = "10.0.0.0/24"
 }
