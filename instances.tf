@@ -3,7 +3,7 @@
 
 resource "aws_instance" "k8_control_plane" {
   ami = var.ubuntu_ami
-  instance_type = "t2.micro"
+  instance_type = "t2.medium"
   key_name = aws_key_pair.k8-key.key_name
   associate_public_ip_address = true
   security_groups = [

@@ -35,7 +35,7 @@ variable "ubuntu_ami" {
 }
 
 variable "worker_node_instance_type" {
-	description = " type of instance - t2 or 23 "
+	description = " type of instance - t2 or t3 "
 	default = "t2.micro"
 }
 
